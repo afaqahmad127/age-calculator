@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Poppins, Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: $offWhite;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+// Colors
+$theme-colors: (
+	'primary': $primary,
+	'secondary': $secondary,
+	'success': $primary,
+	'danger': $secondary,
+	// 'warning',
+	// 'info',
+	'light': $whiteColor,
+	'dark': $smokeyGrey,
+);
+
+// Fonts
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+	font-family: 'Poppins-Bold';
+	src: url('../../assets/fonts/Poppins-Bold.ttf');
+}
+
+input[type='text'].form-control {
+	box-shadow: none;
+	height: 100%;
+	border: '5px solid';
+}
+.normal-text {
+	font-family: 'Poppins';
+	font-size: 13px;
+}
+.bold-text {
+	font-family: 'Poppins-Bold';
+	font-size: 13px;
+}
+.primary-hover-dark {
+	background-color: $primary;
+	&:hover {
+		background-color: $offBlack;
+	}
+	&:active {
+		background-color: $offBlack;
+	}
+}

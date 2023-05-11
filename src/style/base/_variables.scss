@@ -1,0 +1,26 @@
+// Colors
+// Primary
+$primary: hsl(259, 100%, 65%);
+$secondary: hsl(0, 100%, 67%);
+
+//  Neutral
+$whiteColor: hsl(0, 0%, 100%);
+$offWhite: hsl(0, 0%, 94%);
+$lightGrey: hsl(0, 0%, 86%);
+$smokeyGrey: hsl(0, 1%, 44%);
+$offBlack: hsl(0, 0%, 8%);
+
+//  Typography
+
+$fontSize: 32px;
+
+:export {
+	primary: $primary;
+	secondary: $secondary;
+	whiteColor: $whiteColor;
+	offWhite: $offWhite;
+	lightGrey: $lightGrey;
+	smokeyGrey: $smokeyGrey;
+	offBlack: $offBlack;
+	fontSize: $fontSize;
+}
